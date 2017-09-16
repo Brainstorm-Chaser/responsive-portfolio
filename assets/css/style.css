@@ -137,16 +137,8 @@ aside {
   width:26%;
   height:130px;
   background-color:white;
-/*  text-align:center;*/
   float:right;
 }
-/*.social-img-box{
-  border:2px bold yellow;
-  width:250px;
-  height:50px;
-  float:center;
-  position:relative;
-}*/
 
 .social-img-box img {
   padding-left:10px;
@@ -214,66 +206,279 @@ input[type=submit]:hover {
 
 
 
+/*980PX RESPONSIVE SECTION*/
+
+@media screen and (max-width: 980px) {
+  body {
+    width:960px;
+    background-color: black;
+  }
 
 
-
-
-
-
-
-
-
-/*}
-#main-section {
-  width: 650px;
-  border: solid;
-  border-color: black;
-  float:left;
-  margin: 5px;
-  background-color:lightblue;
-}
-
- #sidebar {
-  width: 270px;
-  border: solid;
-  border-color:black;
-  float:left;
-  background-color:green;
-  margin:1px;
-  padding:2px;
- }*/
-
-/*.main-content {
+.portfolio-container {
   width:100%;
-  height:100%;
-}*/
-/*body {
-  width: 100%;
-  margin: 0;
-  padding:0;
+  height:800px;
+ background-image: url("../images/hexellence.png");
 }
 
-header {
+.index-container {
   width:100%;
-  border-bottom: 1px solid #ccc;
+  height:600px;
+ background-image: url("../images/hexellence.png");
+}
 
+.contact-container {
+  width:100%;
+  height:700px;
+ background-image: url("../images/hexellence.png");
 }
-.container {
-  width: 960px;
-  margin: 0 auto;
-  
+
+.nav-container li {
+  display:inline-block;
+    padding-top:16px;
+  height:34px;
+  width:9%;
+  background-color: white;
+  float:right;
+    color:#ebebeb;
 }
-section {
-  border: 1px solid #ddd;
-  width: 650px;
-  float: left;
+
+index-section {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top: 40px;
+  width:64%;
+  height:400px;
+  background-color:white;
 }
+
+contact-section {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top: 40px;
+  width:64%;
+  height:535px;
+  background-color:white;
+}
+
+portfolio-section {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top: 40px;
+  width:64%;
+  height:625px;
+  background-color:white;
+}
+
 aside {
-  border: 1px solid #ddd;
-  width: 270px;
-  float: left;
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top:40px;
+  margin-left: 10px;
+  width:26%;
+  height:130px;
+  background-color:white;
+  float:right;
 }
-.clearfix::after {
-    content: ” “;
-    display: table;
-    clear: both;*/
+
+.social-img-box img {
+  padding-left:10px;
+  margin: 0 auto;
+  width:60px;
+  height:60px;
+  float:center;
+  position:relative;
+}
+
+/*768PX RESPONSIVE SECTION*/
+
+@media screen and (max-width: 768px) {
+  body {
+    width:600px;
+    background-color: black;
+  }
+
+
+.portfolio-container {
+  width:100%;
+  height:1000px;
+  background-color:yellow;
+}
+
+.index-container {
+  width:100%;
+  height:900px;
+  background-color:yellow;
+}
+
+.contact-container {
+  width:100%;
+  height:800px;
+  background-color:yellow;
+}
+
+.nav-container li {
+  display:inline-block;
+    padding-top:16px;
+  height:34px;
+  width:15%;
+  background-color: white;
+  float:right;
+  color:#ebebeb;
+}
+
+index-section {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top: 40px;
+  width:50%;
+  height:725px;
+  background-color:white;
+}
+
+contact-section {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top: 40px;
+  width:50%;
+  height:550px;
+  background-color:white;
+}
+
+portfolio-section {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top: 40px;
+  width:50%;
+  height:775px;
+  background-color:white;
+}
+
+aside {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top:40px;
+  margin-left: 10px;
+  width:35%;
+  height:130px;
+  background-color:white;
+  float:right;
+}
+
+.social-img-box img {
+  padding-left:10px;
+  margin: 0 auto;
+  width:50px;
+  height:50px;
+  float:center;
+  position:relative;
+}
+
+/*640PX RESPONSIVE SECTION*/
+
+@media screen and (max-width: 640px) {
+  body {
+    width:500px;
+    background-color: black;
+  }
+
+
+.portfolio-container {
+  width:100%;
+  height:1200px;
+  background-color:yellow;
+/* background-image: url("../images/hexellence.png");*/
+}
+
+.index-container {
+  width:100%;
+  height:1500px;
+  background-color:yellow;
+/* background-image: url("../images/hexellence.png");*/
+}
+
+.contact-container {
+  width:100%;
+  height:800px;
+  background-color:yellow;
+}
+
+.nav-container li {
+  display:inline-block;
+    padding-top:16px;
+  height:34px;
+  width:18%;
+  background-color: white;
+  float:right;
+  color:#ebebeb;
+}
+
+index-section {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top: 40px;
+  width:40%;
+  height:1100px;
+  background-color:white;
+}
+
+contact-section {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top: 40px;
+  width:40%;
+  height:550px;
+  background-color:white;
+}
+
+portfolio-section {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top: 40px;
+  width:40%;
+  height:1000px;
+  background-color:white;
+}
+
+aside {
+  margin-top:40px;
+  padding:20px;
+  display:inline-block;
+  padding-top:40px;
+  margin-left: 10px;
+  width:40%;
+  height:130px;
+  background-color:white;
+  float:right;
+}
+
+.social-img-box img {
+  padding-left:10px;
+  margin: 0 auto;
+  width:50px;
+  height:50px;
+  float:center;
+  position:relative;
+}
+
+.header-container {
+  position:static;
+  width:100%;
+  height:50px;
+  background-color:yellow;
+  float:left;
+  border-bottom: 3px solid #ebebeb;
+}
+
+
